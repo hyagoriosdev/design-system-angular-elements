@@ -14,7 +14,7 @@ This is a demonstration of a Design System using a simulated monorepo architectu
 
 * **Framework**: Angular 21 (Zoneless, Standalone Components, Signals)
 * **Language**: TypeScript
-* **Styling**: Tailwind CSS 4+
+* **Styling**: Angular Material
 
 ## 🚀 Getting Started
 
