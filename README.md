@@ -4,24 +4,23 @@ This is a demonstration of a Design System using a simulated monorepo architectu
 
 ## 🌟 Key Features
 
-* **Legacy vs Modern**: Side-by-side comparisons of Angular features.
-* **Control Flow Migration**: Moving from `*ngIf`/`*ngFor`/`*ngSwitch` to `@if`/`@for`/`@switch`.
-* **State & Reactivity Migration**: Moving from `rxjs` subjects to Angular `Signals`.
-* **Component API Migration**: Moving from `@Input`/`@Output` decorators to `input()`/`output()` functions.
-* **Architecture**: Standalone components replacing `NgModules`.
+* **Angular Elements**: Exposing standard Angular components as native Web Components (Custom Elements).
+* **Angular Material** (v19+): Leveraging the `@angular/material` library with custom theming.
+* **Component Registry**: A centralized registry to transform Angular components to Custom Elements seamlessly.
+* **Dark Mode**: Fully supports a light/dark mode switch that adjusts Material palettes globally.
+* **Modern Angular**: Built with Angular 21, Signals, and a Zoneless approach.
 
-## 🛠️ Tech Stack
+## 📦 Emulated Monorepo Architecture
 
-* **Framework**: Angular 21 (Zoneless, Standalone Components, Signals)
-* **Language**: TypeScript
-* **Styling**: Angular Material
+* `libs/ds-components`: Simulates a separate library containing UI components.
+* `ds-components/registry.ts`: The bridge that registers Angular elements on application bootstrap.
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/angular-migration-showcase.git
-   cd angular-migration-showcase
+   git clone https://github.com/your-username/design-system-angular-elements.git
+   cd design-system-angular-elements
    ```
 
 2. **Install dependencies**
