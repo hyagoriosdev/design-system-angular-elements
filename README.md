@@ -34,6 +34,3 @@ This is a demonstration of a Design System using a simulated monorepo architectu
    npm start
    ```
    Navigate to `http://localhost:3000/`.
-
----
-*Developed with a focus on code quality and modern Angular practices.*
