@@ -1,0 +1,6 @@
+{
+  "name": "design-system-angular-elements",
+  "description": "Uma arquitetura simulada de monorepo expondo web components feitos com Angular Elements e Angular Material.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
